@@ -1,0 +1,14 @@
+You will predict future connections between employees of the network. 
+The future connections information has been loaded into the variable future_connections. The index is a tuple 
+indicating a pair of nodes that currently do not have a connection, and the Future Connection column indicates
+if an edge between those two nodes will exist in the future, where a value of 1.0 indicates a future connection.
+
+Using network G and future_connections, identify the edges in future_connections with missing values and predict
+whether or not these edges will have a future connection.
+
+Your predictions will need to be given as the probability of the corresponding edge being a future connection.
+
+The evaluation metric is the Area Under the ROC Curve (AUC).
+
+Using your trained classifier, return a series of length 122112 with the data being the probability of the edge
+being a future connection, and the index being the edge as represented by a tuple of nodes.
