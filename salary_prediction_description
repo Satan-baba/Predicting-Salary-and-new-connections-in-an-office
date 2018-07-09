@@ -1,0 +1,16 @@
+Working with a company's email network where each node corresponds to a person at the company, 
+and each edge indicates that at least one email has been sent between two people.
+
+The network also contains the node attributes Department and ManagementSalary.
+
+Department indicates the department in the company which the person belongs to, and 
+ManagementSalary indicates whether that person is receiving a management position salary.
+
+Salary Prediction Using network G, identify the people in the network with missing values 
+for the node attribute ManagementSalary and predict whether or not these individuals are 
+receiving a management position salary.
+
+Your predictions will need to be given as the probability that the corresponding employee
+is receiving a management position salary.
+
+The evaluation metric for this project is the Area Under the ROC Curve (AUC).
